@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<modDesc descVersion="61">
+    <author>DJM</author>
+    <version>1.0.0.0</version>
+    <title>
+        <en>Game Difficulty: Survival Lite</en>
+    </title>
+    <description>
+        <en><![CDATA[Game Difficulty: Survival Lite
+
+- Credit limit is set to 0
+- Vehicle leasing disabled
+- Sleeping disabled
+- AI worker cost set to $2000 per real life hour
+- Terraforming cost set to 0]]></en>
+    </description>
+    <iconFilename>icon.dds</iconFilename>
+    <multiplayer supported="true"/>
+    <extraSourceFiles>
+        <sourceFile filename="src/survival.lua" />
+    </extraSourceFiles>
+</modDesc>
