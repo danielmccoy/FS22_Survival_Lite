@@ -2,4 +2,3 @@
 - Vehicle leasing disabled
 - Sleeping disabled
 - AI worker cost set to $2000 per real life hour
-- Terraforming cost set to 0

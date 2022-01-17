@@ -24,8 +24,6 @@ function Survival:loadMap()
     AIJobFieldWork.getPricePerMs = Utils.overwrittenFunction(AIJobFieldWork.getPricePerMs, Survival.getPricePerMs)
     AIJobConveyor.getPricePerMs = Utils.overwrittenFunction(AIJobConveyor.getPricePerMs, Survival.getPricePerMs)
 
-    -- override terraforming cost
-    Landscaping.SCULPT_BASE_COST_PER_M3 = 0
 end
 
 -- prevent leasing in shop
